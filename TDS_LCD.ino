@@ -49,7 +49,7 @@ void loop()
   lcd.print("TDS Value : "); 
   lcd.print(tdsValue,0);
   lcd.setCursor(0, 1);
-  lcd.print("19002 & 19020 :)"); 
+  lcd.print("*******"); /*put some text here it will be displayed on the first line*/ 
    }
 }
 int getMedianNum(int bArray[], int iFilterLen) 
